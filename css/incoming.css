@@ -6,3 +6,72 @@
 .incoming .menu-item-link{
     color: white;
 }
+
+.ways-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border: 3px solid #008ad1;
+}
+
+.ways-item-blok {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.ways-item-h {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #008ad1;
+}
+
+.ways-item-vid,
+.ways-item-code {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.wais-list-gal {
+    color: #008ad1;
+}
+
+.ways-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ways-list-item {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ways-item-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+.ways-item-img {
+    flex: 0 0 40%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.inovB {
+    background-image: url(../img/inovB.jpg);
+}
+
+.res {
+    background-image: url(../img/res.jpg);
+}
+
+.ways-item-link {
+    margin-top: auto;
+}
