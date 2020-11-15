@@ -1,0 +1,136 @@
+/* общие стили */
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* шапка */
+
+header {
+    background-color:#008ad1;
+}
+
+.header-blok {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-logo {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/logo-header.png);
+    background-size: cover;
+}
+
+.header-h {
+    color: white;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links-item {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
+
+.header-links-item:last-child {
+    margin-right: 0;
+}
+
+.vk {
+    background-image: url(../img/vk.png);
+}
+
+.fb {
+    background-image: url(../img/fb.png);
+}
+
+.inst {
+    background-image: url(../img/inst.png);
+}
+
+/* меню */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    color: black;
+}
+
+.menu-item:hover {
+    color: white;
+    background-color: #008ad1;
+}
+
+/* подвал */
+.footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    color: white;
+    background-color: #0000007b;
+}
+
+.footer-blok {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav-list:first-child {
+    margin-right: 20px;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-nav-link {
+    color: white;
+}

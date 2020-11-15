@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/department.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+    <title>Кафедра №317</title>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="header-blok">
+                <div class="header-logo"></div>
+                <h1 class="header-h">Кафедра 317 «Управление инновациями»</h1>
+                <div class="header-links">
+                    <a class="header-links-item vk" href="https://vk.com/im?sel=c76"></a>
+                    <div class="header-links-item fb"></div>
+                    <div class="header-links-item inst"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <nav class="menu">
+                <a class="menu-item department" href="index.html"><samp>Кафедра</samp></a>
+                <a class="menu-item incoming" href="incoming.html"><samp>Поступающим</samp></a>
+                <a class="menu-item incoming" href="incoming.html"><samp>Стдентам</samp></a>
+                <a class="menu-item incoming" href="incoming.html"><samp>Наука</samp></a>
+            </nav>
+            <section class="swiper">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper scrol-blok">
+                        <div class="swiper-slide scrol-item scrol-first">
+                            <span class="swiper-spam">Бакалавриат по направлению</span>
+                            <span class="swiper-spam">«Инноватика»</span>
+                            <span class="swiper-spam">27.03.05</span>
+                        </div>
+                        <div class="swiper-slide scrol-item scrol-second">
+                            <span class="swiper-spam">Магистратура по направлению</span>
+                            <span class="swiper-spam">«Конструирование и технология производства радиоэлектронных средств»</span>
+                            <span class="swiper-spam">11.04.03</span>
+                        </div>
+                        <div class="swiper-slide scrol-item scrol-three">
+                            <span class="swiper-spam">Магистратура по направлению</span>
+                            <span class="swiper-spam">«Инноватика»</span>
+                            <span class="swiper-spam">27.04.05</span>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <script src="../package/swiper-bundle.min.js"></script>
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        cssMode: true,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        pagination: {
+                            el: '.swiper-pagination'
+                        },
+                        mousewheel: true,
+                        keyboard: true,
+                    });
+                </script>
+            </section>
+            <section class="mission">
+                <p class="mission-text"><span class="mission-h">Миссия:</span> подготовка специалистов, способных создавать и внедрять технологии нового поколения, для аэрокосмической, радиоэлектронной и других отраслей экономики, обеспечивающих их паритет и технологическое превосходство в условиях глобальной конкуренции.</p>
+            </section>
+            <section class="news">
+                <h2 class="news-h">Новости кафедры</h2>
+                <div class="news-list">
+                    <div class="news-item">
+                        <div class="news-item-blok">
+                            <h3 class="news-item-h">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p class="news-item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo aperiam ut sequi odit quas aliquid reiciendis qui magni eos, delectus, omnis, a est ab non voluptas ex amet incidunt repudiandae!</p>
+                            <a class="news-item-link" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-item-blok">
+                            <h3 class="news-item-h">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p class="news-item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo aperiam ut sequi odit quas aliquid reiciendis qui magni eos, delectus, omnis, a est ab non voluptas ex amet incidunt repudiandae!</p>
+                            <a class="news-item-link" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="news-more" href="#">Все новости</a>
+            </section>
+            <section class="staf">
+                <h2 class="staf-h">Сотрудники кафедры</h2>
+                <div class="staf-list">
+                    <div class="staf-item bender">
+                        <div class="staf-item-blok">
+                            <span class="staf-item-text">Бендерский Геннадий Петрович</span>
+                            <span class="staf-item-text">Зав. кафедры</span>
+                        </div>
+                    </div>
+                    <div class="staf-item none">
+                        <div class="staf-item-blok">
+                            <span class="staf-item-text">Александрова Светлана Сергеевна</span>
+                            <span class="staf-item-text">Доцент</span>
+                        </div>
+                    </div>
+                    <div class="staf-item anfiorova">
+                        <div class="staf-item-blok">
+                            <span class="staf-item-text">Бендерский Геннадий Петрович</span>
+                            <span class="staf-item-text">Зав. кафедры</span>
+                        </div>
+                    </div>
+                </div>
+                <a class="staf-more" href="#">Все сотрудники</a>
+            </section>
+            <section class="map">
+                <h2 class="map-h">Где мы?</h2>
+                <div id="map"></div>
+                <script type="text/javascript">
+                    // Функция ymaps.ready() будет вызвана, когда
+                    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+                    ymaps.ready(init);
+                    function init(){
+                        // Создание карты.
+                        var myMap = new ymaps.Map("map", {
+                            center: [55.739389, 37.409622],
+                            zoom: 16
+                        });
+                        // Создание геообъекта с типом точка (метка).
+                        var myGeoObject = new ymaps.GeoObject({
+                            geometry: {
+                                type: "Point", // тип геометрии - точка
+                                coordinates: [55.739389, 37.409622] // координаты точки
+                            }
+                        });
+                        // Размещение геообъекта на карте.
+                        myMap.geoObjects.add(myGeoObject);
+                    }
+                </script>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="content">
+            <div class="footer-blok">
+                <nav class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Главная</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Новости</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Сотрудники</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Контакты</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Наука</a></li>
+                    </ul>
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Поступающим</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Студемнам</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Расписание</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Документы</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#">Отдел</a></li>
+                    </ul>
+                </nav>
+                <span>design by team 2</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
